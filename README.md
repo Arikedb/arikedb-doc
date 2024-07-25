@@ -14,3 +14,8 @@ Current supported methods of installation are:
  - [General](./configuration/general.md)
  - [Connection](./configuration/connection.md)
  - [Authentication](./configuration/authentication.md)
+
+## Tutorials
+
+ - [Snap Deploy Tutorial](./tutorials/snap_deploy_tutorial.md)
+ - [Docker Deploy Tutorial](./tutorials/docker_deploy_tutorial.md)
