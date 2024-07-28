@@ -2,7 +2,7 @@
 
 Arikedb server configurations are divided in some sections. Lets break down the general section, its parameters and all the options to set them up.
 
-InN the `config.toml` file, you can find this parameters under the section `[general]`. A basic example configuration of this section is:
+In the `config.toml` file, you can find this parameters under the section `[general]`. A basic example configuration of this section is:
 
 ```toml
 [general]

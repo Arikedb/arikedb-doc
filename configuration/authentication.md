@@ -24,6 +24,6 @@ When a client successfully authenticate with the server, it receive a token for 
 ### Session After Expiration Time Margin
 For Docker deployments it can also be set using the env variable `ARIKEDB_SESSION_AFTER_EXPIRATION_TIME_MARGIN`
 
-When a client send an expired token, but the amount of time the token has been expired is less than this parameter, the server will respond the request and also will send a new token valid for the same period of the previous one, so the client will be able to use it in future requests without the need of authenticate again.
+When a client send an expired token, but the amount of time the token has been expired is less than this parameter's value, the server will respond the request and also will send a new token valid for the same period of the previous one, so the client will be able to use it in future requests without the need of authenticate again.
 
 [Back](../README.md)

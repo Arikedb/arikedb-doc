@@ -19,5 +19,6 @@ Current supported methods of installation are:
 
  - [Snap Deploy Tutorial](./tutorials/snap_deploy_tutorial.md)
  - [Docker Deploy Tutorial](./tutorials/docker_deploy_tutorial.md)
- - [Consuming Arikedb from python](./python_client_tutorial.md)
- - [Consuming Arikedb from rust](./rust_client_tutorial.md)
+ - [Consuming Arikedb from python](https://github.com/Arikedb/arikedb-python/blob/main/README.md)
+ - [Consuming Arikedb from rust](https://github.com/Arikedb/arikedb-rust/blob/main/README.md)
+ 
