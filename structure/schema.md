@@ -2,6 +2,4 @@
 
 In this simple schema we show how Arikedb data is stored and organized in the system memory.
 
-![Data Structure](../meta/Arikedb-DataOrganization.svg)
-
-[Back](../README.md)
+![Data Structure](/meta/Arikedb-DataOrganization.svg)

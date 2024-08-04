@@ -30,5 +30,3 @@ arikedb generate-conf-file
 We will talk more about `arikedb` command tool in next sections.
 
 In the configuration file you will see all the adjustable parameters that defines how the server of arikedb runs. To modify any of them just edit the `config.toml` and restart the service as was showed before.
-
-[Back](../README.md)

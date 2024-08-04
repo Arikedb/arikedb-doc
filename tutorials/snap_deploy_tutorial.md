@@ -240,7 +240,5 @@ In order to remove, change password and role of any existing user just follow th
 ## Consuming the server
 
 Now we are ready to start using the server to store and read real time data.
- - [Consuming Arikedb from python](./python_client_tutorial.md)
- - [Consuming Arikedb from rust](./rust_client_tutorial.md)
-
-[Back](../README.md)
+ - [Consuming Arikedb from python](https://github.com/Arikedb/arikedb-python/blob/main/README.md)
+ - [Consuming Arikedb from rust](https://github.com/Arikedb/arikedb-rust/blob/main/README.md)
