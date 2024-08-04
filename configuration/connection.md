@@ -12,6 +12,7 @@ tls_enabled = false
 tls_cert_path = ""
 tls_key_path = ""
 ca_path = ""
+client_auth_optional = false
 ```
 
 ### Bind Addr
@@ -49,5 +50,10 @@ The tls_key_path parameter specifies the file path to the private key correspond
 For Docker deployments it can also be set using the env variable `ARIKEDB_TLS_CA_PATH`
 
 The ca_path parameter specifies the file path to the Certificate Authority (CA) certificate used to verify client certificates. For Snap deployments, take care of put the cert file into the accessible directory for the snap due to its confinement, potentially on `/var/snap/arikedb/common`. This parameter is only relevant if tls_enabled is set to true and if client certificate verification is needed.
+
+## Client Auth Optional
+For Docker deployments it can also be set using the env variable `ARIKEDB_CLIENT_AUTH_OPTIONAL`
+
+The client_auth_optional parameter specifies whether client authentication is optional. If set to true, the server will accept connections from clients without verifying their identity. If set to false, the server will require clients to present a valid certificate for authentication.
 
 [Back](../README.md)
