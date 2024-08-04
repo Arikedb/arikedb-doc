@@ -86,6 +86,7 @@ tls_enabled = false
 tls_cert_path = ""
 tls_key_path = ""
 ca_path = ""
+client_auth_optional = false
 
 [authentication]
 auth_enabled = false
@@ -109,6 +110,7 @@ tls_enabled = false
 tls_cert_path = ""
 tls_key_path = ""
 ca_path = ""
+client_auth_optional = false
 
 [authentication]
 auth_enabled = true  # To enforce clients authentication
