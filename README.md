@@ -15,6 +15,10 @@ Current supported methods of installation are:
  - [Connection](./configuration/connection.md)
  - [Authentication](./configuration/authentication.md)
 
+## Data Structure
+
+
+
 ## Tutorials
 
  - [Snap Deploy Tutorial](./tutorials/snap_deploy_tutorial.md)
