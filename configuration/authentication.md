@@ -14,7 +14,7 @@ session_after_expiration_time_margin = 300000
 ### Auth Enabled
 For Docker deployments it can also be set using the env variable `ARIKEDB_AUTH_ENABLED`
 
-If authentication is enabled, then all clients connected to the server must be authenticated before making any request. Authentication is performed using a username/password credentials. (see [Arikedb Tools Tutorial](/tutorials/arikedb_tool_tutorial.md) to know how to manage users in the server).
+If authentication is enabled, then all clients connected to the server must be authenticated before making any request. Authentication is performed using a username/password credentials.
 
 ### Session Expiration Time
 For Docker deployments it can also be set using the env variable `ARIKEDB_SESSION_EXPIRATION_TIME`

@@ -1,0 +1,83 @@
+{
+    "routes": [
+      {
+        "title": "Structure",
+        "path": "structure",
+        "children": [
+          {
+            "title": "Schema",
+            "path": "schema"
+          },
+          {
+            "title": "Variable",
+            "path": "variable"
+          },
+          {
+            "title": "Collection",
+            "path": "collection"
+          }
+        ]
+      },
+      {
+        "title": "Installation",
+        "path": "installation",
+        "children": [
+          {
+            "title": "Snap",
+            "path": "snap"
+          },
+          {
+            "title": "Docker",
+            "path": "docker"
+          }
+        ]
+      },
+      {
+        "title": "Configuration",
+        "path": "configuration",
+        "children": [
+          {
+            "title": "General",
+            "path": "general"
+          },
+          {
+            "title": "Connection",
+            "path": "connection"
+          },
+          {
+            "title": "Authentication",
+            "path": "authentication"
+          }
+        ]
+      },
+      {
+        "title": "Tutorials",
+        "path": "tutorials",
+        "children": [
+          {
+            "title": "Snap Deploy",
+            "path": "snap_deploy_tutorial"
+          },
+          {
+            "title": "Docker Deploy",
+            "path": "docker_deploy_tutorial"
+          }
+        ]
+      },
+      {
+        "title": "Developer Tools",
+        "path": "developer_tools",
+        "children": [
+          {
+            "title": "Python",
+            "path": "python"
+          },
+          {
+            "title": "Rust",
+            "path": "rust"
+          }
+        ]
+      }
+    ]
+  }
+  
