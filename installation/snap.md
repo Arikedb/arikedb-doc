@@ -6,7 +6,7 @@ Arikedb can be installed in any linux distribution supporting snap (This beta is
 snap install arikedb --beta
 ```
 
-After install the arikedb snap, you can check the service running:
+After install the ArikeDB snap, you can check the service running:
 ```bash
 service snap.arikedb.server status
 ```
@@ -21,7 +21,7 @@ Any time you want to restart the server just type:
 service snap.arikedb.server restart
 ```
 
-To configure the runtime options, first you need to create a config.toml file. It can be done manually, or using the arikedb tool from terminal. The command above will create a default config file at `/var/snap/arikedb/common/config.toml`
+To configure the runtime options, first you need to create a config.toml file. It can be done manually, or using the ArikeDB tool from terminal. The command above will create a default config file at `/var/snap/arikedb/common/config.toml`
 
 ```bash
 arikedb generate-conf-file
@@ -29,4 +29,4 @@ arikedb generate-conf-file
 
 We will talk more about `arikedb` command tool in next sections.
 
-In the configuration file you will see all the adjustable parameters that defines how the server of arikedb runs. To modify any of them just edit the `config.toml` and restart the service as was showed before.
+In the configuration file you will see all the adjustable parameters that defines how the server of ArikeDB runs. To modify any of them just edit the `config.toml` and restart the service as was showed before.

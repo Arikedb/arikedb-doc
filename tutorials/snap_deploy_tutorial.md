@@ -1,6 +1,6 @@
 # Snap Deploy of Arikedb Server Tutorial
 
-For this tutorial, we will deploy arikedb in an Ubuntu server using snap, the steps and options to make the deploy in any other linux distribution that supports Snap should not be much different.
+For this tutorial, we will deploy ArikeDB in an Ubuntu server using snap, the steps and options to make the deploy in any other linux distribution that supports Snap should not be much different.
 
 ## Installing the snap
 
@@ -19,7 +19,7 @@ sudo snap install arikedb --beta
 
 ## Configuring the server
 
-Now we have arikedb running in our host with its default configuration. Lets modify some things. First, lets generate a config file, for that, we can use the `arikedb` tool from command line.
+Now we have ArikeDB running in our host with its default configuration. Lets modify some things. First, lets generate a config file, for that, we can use the `arikedb` tool from command line.
 
 Type `arikedb --help` in your terminal to see all the available options:
 
@@ -94,7 +94,7 @@ session_expiration_time = 86400000
 session_after_expiration_time_margin = 300000
 ```
 
-Now lets edit that file. For example, in our tutorial we want to deploy an arikedb server with exposed to all network interfaces and with authentication enabled. Also we want all debug messages from the server to be printed in the service logs and we prefer use a port different from the default one. We edit the conf file and modify these parameters getting something like this
+Now lets edit that file. For example, in our tutorial we want to deploy an ArikeDB server with exposed to all network interfaces and with authentication enabled. Also we want all debug messages from the server to be printed in the service logs and we prefer use a port different from the default one. We edit the conf file and modify these parameters getting something like this
 
 ```toml
 [general]
