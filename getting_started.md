@@ -3,9 +3,9 @@
 ArikeDB is a real-time database intended to be simple of use and fast runtime for high data availability and performance. The server is written completely in rust language, taking advantage of its robustness, efficiency and high performance. The current version of ArikeDB available for installation is still a beta, it is stable and all the features are tested, but we don't recommend using it in a production environment yet until the first official version gets released.
 
 ## Data Structure
- - [General Schema](structure/schema.md)
- - [Variables](structure/variable.md)
- - [Collections](structure/collection.md)
+ - [General Schema](/structure/schema.md)
+ - [Variables](/structure/variable.md)
+ - [Collections](/structure/collection.md)
 
 ## Installation and basic setup
 
