@@ -4,7 +4,7 @@ Arikedb is a real-time database intended to be simple of use and fast runtime fo
 
 ## Installation and basic setup
 
-Currently, Arikedb is availability for **amd64** and **arm64** architectures. It can be deployed using docker, snap (on linux systems) and apt packages (on debian based systems).
+Currently, Arikedb is available for **amd64** and **arm64** architectures. It can be deployed using docker, snap (on linux systems) and apt packages (on debian based systems).
 
 ### [Docker](https://hub.docker.com/r/arikedb/arikedb)
 
