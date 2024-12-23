@@ -4,4 +4,4 @@ In Arikedb, [variables](./variable.md) are grouped into collections. A collectio
 An Arikedb collection has next metadata:
  - **name**: This property defines the name of the collection. It is a unique and human readable identifier in each arikedb server or cluster deploy. Any operation made over variables needs to refer a collection by its name.
 
-[Back](../README.md)
+[Home](../README.md)

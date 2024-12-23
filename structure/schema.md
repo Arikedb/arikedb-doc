@@ -4,4 +4,4 @@ In this simple schema we show how Arikedb data is stored and organized in the sy
 
 ![Data Structure](../meta/Arikedb-DataOrganization.svg)
 
-[Back](../README.md)
+[Home](../README.md)

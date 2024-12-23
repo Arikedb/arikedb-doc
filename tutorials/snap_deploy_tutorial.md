@@ -4,17 +4,17 @@ For this tutorial, we will deploy arikedb in an Ubuntu server using snap, the st
 
 ## Installing the snap
 
-The first step is to be sure we have snap installed in out machine, modern distributions of ubuntu comes with snap installed by default, if not, we can installing it from ubuntu official repositories:
+The first step is to be sure we have snap installed in our system, modern distributions of ubuntu comes with snap installed by default, if not, we can installing it from ubuntu official repositories:
 
 ```bash
 sudo apt update
 sudo apt install snapd
 ```
 
-Current Arikedb released is a beta version, therefore to install it from snap-store we must include the `--beta` argument to the next command:
+Now we can install arikedb from snap store:
 
 ```bash
-sudo snap install arikedb --beta
+sudo snap install arikedb
 ```
 
 ## Configuring the server
@@ -237,10 +237,4 @@ Role: Viewer
 
 In order to remove, change password and role of any existing user just follow the documentation provided when execute the command with `-h`.
 
-## Consuming the server
-
-Now we are ready to start using the server to store and read real time data.
- - [Consuming Arikedb from python](./python_client_tutorial.md)
- - [Consuming Arikedb from rust](./rust_client_tutorial.md)
-
-[Back](../README.md)
+[Home](../README.md)

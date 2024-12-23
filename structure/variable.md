@@ -2,7 +2,7 @@
 
 In Arikedb, **variables** are the root concept and the main unit where data is stored. An Arikedb variable has next metadata:
 
- - **name**: This property defines the name of the variable. It is a unique and human readable identifier in each collection ([See collections](./collection.md)). Any operation made over a variable will be referenced using its name.
+ - **name**: This property defines the name of the variable. It is a unique and human readable identifier in each collection ([See collections](/structure/collection.md)). Any operation made over a variable will be referenced using its name.
  - **type**: Arikedb variables must have a well declared type. The variable type will be used to store values in memory using the amount of memory needed for it. Available types are:
    - **I8**: Integer numbers stored in 8 bits. The possible values are -2^7 <= x <= 2^7 - 1
    - **I16**: Integer numbers stored in 16 bits. The possible values are -2^15 <= x <= 2^15 - 1
@@ -22,4 +22,4 @@ In Arikedb, **variables** are the root concept and the main unit where data is s
    - Bigger buffers means more data stored and more memory usage
    - Buffer size defines the limit of derivative order you will be able to query from a variable 
 
-[Back](../README.md)
+[Home](../README.md)

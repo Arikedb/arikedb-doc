@@ -3,7 +3,7 @@
 
 Arikedb can be installed in any linux distribution supporting snap (This beta is only available for AMD architectures) using the command with root privileges:
 ```bash
-snap install arikedb --beta
+snap install arikedb --candidate
 ```
 
 After install the arikedb snap, you can check the service running:
@@ -31,4 +31,4 @@ We will talk more about `arikedb` command tool in next sections.
 
 In the configuration file you will see all the adjustable parameters that defines how the server of arikedb runs. To modify any of them just edit the `config.toml` and restart the service as was showed before.
 
-[Back](../README.md)
+[Home](../README.md)

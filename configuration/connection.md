@@ -54,6 +54,6 @@ The ca_path parameter specifies the file path to the Certificate Authority (CA) 
 ### Client Auth Optional
 For Docker deployments it can also be set using the env variable `ARIKEDB_CLIENT_AUTH_OPTIONAL`
 
-The client_auth_optional parameter specifies whether client authentication is optional. If set to true, the server will accept connections from clients without verifying their identity. If set to false, the server will require clients to present a valid certificate for authentication.
+The client_auth_optional parameter specifies whether client authentication is optional. If set to true, the server will accept connections from clients without verifying their identity. If set to false, the server will require clients to present a valid set of user and password credentials.
 
-[Back](../README.md)
+[Home](../README.md)
