@@ -100,7 +100,7 @@ Output:
 
 ## Creating an user
 
-Since we enabled the authentication for our server, next step to be able to use our deploy is create almost one user. In this case, the simplest way is enter the container terminal and use the arikedb tool:
+Since we enabled the authentication for our server, next step to be able to use our deploy is create almost one user. In this case, the simplest way is enter the container terminal and use the ArikeDB tool:
 
 Entering the container terminal:
 
@@ -108,7 +108,7 @@ Entering the container terminal:
 docker exec -it arikedb_container bash
 ```
 
-Once there, we can use the arikedb tool to create a user:
+Once there, we can use the ArikeDB tool to create a user:
 
 ```bash
 arikedb create-user --username admin --password admin --role writer

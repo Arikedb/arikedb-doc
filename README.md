@@ -1,4 +1,4 @@
-# Arikedb
+# ArikeDB
 
 Arikedb is a real-time database intended to be simple of use and fast runtime for high data availability and performance. The server is written completely in rust language, taking advantage of its robustness, efficiency and high performance. 
 

@@ -1,14 +1,14 @@
 ## Docker setup
 [Get it from the Docker Hub](https://hub.docker.com/r/arikedb/arikedb)
 
-Arikedb docker image can be pulled and ran from docker hub:
+ArikeDB docker image can be pulled and ran from docker hub:
 ```bash
 docker pull arikedb/arikedb
 ```
 
 The command above will pull the image from docker hub to your local host.
 
-Now, you can run an arikedb container with basic configurations just executing:
+Now, you can run an ArikeDB container with basic configurations just executing:
 ```bash
 docker run arikedb/arikedb
 ```
